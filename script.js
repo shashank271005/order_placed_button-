@@ -7,7 +7,7 @@ document.querySelectorAll('.truck-button').forEach(button => {
             truck = button.querySelector('.truck');
         
         if(!button.classList.contains('done')) {
-            
+             
             if(!button.classList.contains('animation')) {
 
                 button.classList.add('animation');
